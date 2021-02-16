@@ -1,0 +1,1 @@
+UrlFuzzer.exe -u google.com/ -d D:\UrlFuzzer\CommonDirs.txt
