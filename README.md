@@ -4,7 +4,8 @@
 - Uses a wordlist to check for url directories
 - Fast and eficient  
 
-This is only a basic url fuzzer and wouldn't be practical to use.
+This is only a basic url fuzzer and wouldn't be practical to use.  
+I made it a long time ago as practice so the syntax is probably awful. 
 
 
 
