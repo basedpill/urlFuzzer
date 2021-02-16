@@ -43,6 +43,10 @@ Feel free to check
 
 Give a ⭐️ if this project helped you!
 
+## Licence
+
+MIT licence
+
 
 ## To-Do
 
