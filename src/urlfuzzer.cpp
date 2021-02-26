@@ -26,7 +26,7 @@ void request(std::string link)
 }
 
 int main(int argc, char** argv){
-    if (argc < 5) { std::cout << "Simple URL fuzzer\nRun via the command line!\n\nUse -u followed by your url with a / at the end!\nUse -w followed by the directory of your wordlist!\n"; exit(0); }
+    if (argc < 5) { std::cout << "Simple URL fuzzer\nRun via the command line!\n\nUse -u followed by your url with a / at the end!\nUse -d followed by the directory of your wordlist!\n"; exit(0); }
     if (std::string(argv[1]) == "-u"){
         std::cout << "\nYour URL to fuzz is: " << argv[2] << "\n" << "Sending request to le URL" << "\n";
         cpr::Response r = cpr::Get(cpr::Url{argv[2]});
