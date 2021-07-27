@@ -18,7 +18,7 @@ void wordlist(std::string dir){
 void request(std::string link)
 {
     cpr::Response x = cpr::Get(cpr::Url{ link });
-    if ((x.status_code == 200) && (x.status_code <= 300)){
+    if ((x.status_code == 200) || (x.status_code <= 300)){
         std::cout << "[VALID] - " << link << " exists!\n";}
     else{
         std::cout << "[INVALID] - "<< link << " does not exist!\n";
